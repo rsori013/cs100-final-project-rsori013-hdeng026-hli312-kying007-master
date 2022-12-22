@@ -1,0 +1,3 @@
+[submodule "gtest/getest.h"]
+	path = tests/googletest
+	url = https://github.com/google/googletest.git

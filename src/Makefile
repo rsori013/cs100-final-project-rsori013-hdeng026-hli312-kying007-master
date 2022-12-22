@@ -1,0 +1,2 @@
+run_game : Archer.cpp Mob.cpp Player.cpp StoryBoard.cpp main.cpp inventory.cpp Wizard.cpp Monk.cpp Warrior.cpp
+	g++ -o run_game Archer.cpp Mob.cpp Player.cpp StoryBoard.cpp main.cpp inventory.cpp Wizard.cpp Monk.cpp Warrior.cpp
