@@ -25,7 +25,8 @@ In this Adventure RPG Game we created the user can choose among 4 different char
  
  > ## Phase II
 ## Class Diagram
-![UML Diagram](https://github.com/cs100/final-project-hdeng026-hli312-kying007-rsori013/blob/master/CS_100_Final.drawio_3%20(1).pdf)
+![uml diagram download](https://github.com/rsori013/cs100-final-project-rsori013-hdeng026-hli312-kying007-master/assets/114533891/2d724570-727b-4adc-b479-cae47c47a377)
+
  > Character is the superclass (interface) to Warrior, Wizard, Monk, Archer. The four different characters have unique attack capabilities between each other. Wizard can cast spells, Monk can double the damage with training, Archers can dodge monster attacks and Warrior can suck blood from the enemies. Player then inherits these classes and takes it to storyboard where the main game will run. Storyboard is composed of the player, and aggregated from the mob class. The battle will happen through the battleWithMob function in StoryBoard. Mobs will drop items for players to pick up one they are beaten. Items will be stored in the player inventory in an item vector. Items will be weapons or potions. Weapons inside the inventory can be use as an offense against the monsters and potions can be use to regain health up to full health. To equip items we use playerGetItem in the player class. playerWeapon is a item type that will first set up to NULL at the beginning of the game. When the player equips a weapon, playerWeapon copys those values to then be used in the attack() function for player where the damage is added to the base damage. To equip an item, the player will print items and enter the number next to the item displayed. 
 
  > ## Phase III
